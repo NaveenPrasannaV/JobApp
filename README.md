@@ -1,6 +1,5 @@
 # Client App — JobApp
 
-
 # JobApp – REST API Gateway
 
 JobApp is a **Spring Boot REST API Gateway** that exposes Job Portal APIs to external clients.  
@@ -8,8 +7,11 @@ Instead of directly interacting with the database, this application communicates
 
 The project demonstrates a **REST → gRPC Gateway architecture**, where external clients interact with REST APIs while internal services communicate using **gRPC and Protocol Buffers**.
 
+---
 
 ## Architecture
+
+```
 
 Client (Postman / Web / Mobile)
 │
@@ -27,6 +29,10 @@ Port: **9091**
 │
 ▼
 PostgreSQL Database
+
+````
+
+---
 
 ## Features
 
@@ -128,10 +134,8 @@ Application runs on:
 http://localhost:8080
 ```
 
+---
+
 ## Learning Outcome
 
 This project demonstrates how to implement a **REST API Gateway that communicates with backend microservices using gRPC**, a common architecture used in modern distributed systems.
-
----
-
-If you want, I can also give you a **very polished GitHub version with badges, architecture diagrams, and folder structure** that makes your repo look **like a production microservice project.**
